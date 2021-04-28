@@ -136,6 +136,7 @@ function App() {
                                         margin: "0 0 8px 0",
                                         minHeight: "50px",
                                         backgroundColor: "black",
+                                        opacity: 0.9,
 
                                         color: "white",
                                         ...provided.draggableProps.style,
