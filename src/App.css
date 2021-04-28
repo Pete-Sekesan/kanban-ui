@@ -19,6 +19,11 @@ html, body, #root {
     font-size: 20px;
     padding: 0 14px 10px;
   }
+
+  .App-header {
+     justify-content: center;
+     align-items: center;
+  }
   
   .App-list {
     display: flex;
@@ -29,4 +34,10 @@ html, body, #root {
 
 main {
   height: 100%
+}
+
+.columns{
+  display: "flex";
+  flex-direction: "column";
+  align-items: "center";
 }
