@@ -12,7 +12,7 @@
 
 Again, unfortunately, I could not complete all of the required checkpoints. MongoDB and a drag and drop react application were both entirely new concepts for myself, so I had to spend some time learning both. After it became apparent that I was running out of time, I decided to focus on the one section that I had some control over, which was the front end.
 
-As much as it may not seem like it based on the final product, I did enjoy this assignment. MongoDB and DnD interfaces are both incredibly popular and it was fun, albeit nerve-racking and frustrating at times. But it's all about always learning new things. I plan to take up both of these technologies and hope ti implement something tangible with them in the future. I hope that can also be a future with Pensieve.
+As much as it may not seem like it based on the final product, I did enjoy this assignment. MongoDB and DnD interfaces are both incredibly popular and it was fun, albeit nerve-racking and frustrating at times. But it's all about always learning new things. I plan to take up both of these technologies and hope to implement something tangible with them in the future. I hope that can also be a future with Pensieve.
 
 ## Video Demo
 
