@@ -3,7 +3,12 @@ import { DragDropContext, Draggable, Droppable } from "react-beautiful-dnd";
 import { v4 as uuid } from "uuid";
 
 const tasksFromBackend = [
-  { id: uuid(), title: "First task", description: "testing", assignee: "Pete" },
+  {
+    id: uuid(),
+    title: "First task",
+    description: "testing",
+    assignee: "Pete",
+  },
   {
     id: uuid(),
     title: "Second task",
