@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+## About The Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- I have built a todo app before and I looked to that for some guidance. I had wanted to utilize multiple components such as a dedicated Card and List component to tie into the app. Since I had never done anything before with drag and drop, I did some research and tackled it using the react-beautiful-dnd library.
+  I did a lot of reading of the docs and a bunch of YouTube videos to get an idea and went to work on it.
 
-## Available Scripts
+## Issues with Backend
 
-In the project directory, you can run:
+- I ran into a multitude of issues installing and getting MongoDB up and running locally on my machine. I found out their docs are a bit outdated in regards to the newer Mac OS systems in that the user/data where the database defaults to is read only. After playing around with that for a couple of hours, I ended up wiping the mongo-community installed as well as a fresh install of Homebrew.
+  Ultimately, I could not get the two tied together and opted to focus on a dummy backend to compliment the front. Ideally, for CORS, I would have used the CORS middleware package found in with Express to specify an origin of the localhost:9000 that the backend would have ideally been running on.
 
-### `npm start`
+## Approach
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Again, unfortunately, I could not complete all of the required checkpoints. MongoDB and a drag and drop react application were both entirely new concepts for myself, so I had to spend some time learning both. After it became apparent that I was running out of time, I decided to focus on the one section that I had some control over, which was the front end.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+As much as it may not seem like it based on the final product, I did enjoy this assignment. MongoDB and DnD interfaces are both incredibly popular and it was fun, albeit nerve-racking and frustrating at times. But it's all about always learning new things. I plan to take up both of these technologies and hope ti implement something tangible with them in the future. I hope that can also be a future with Pensieve.
 
-### `npm test`
+## Video Demo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![Pensieve Kanban Assignment](https://img.youtube.com/vi/x5EtgAbAXD4/0.jpg)](https://youtu.be/x5EtgAbAXD4)
